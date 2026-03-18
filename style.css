@@ -1,0 +1,78 @@
+div {
+  background-color: #cccccc;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  width: fit-content;
+}
+img {
+  width: 170px;
+  border-radius: 50%;
+  margin: 10px 30px;
+  display: flex;
+  position: absolute;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+.t1 {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  margin-left: 215px;
+  margin-top: 40px;
+}
+.s1 {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 215px;
+  margin-bottom: 10px;
+}
+hr {
+  margin-top: 50px;
+  border: 1px solid #000000;
+}
+p {
+  font-size: 25px;
+  text-align: start;
+  margin-top: -15px;
+  margin-inline: 30px;
+}
+.t2 {
+  margin-left: 35px;
+}
+.s2 {
+  font-size: 2em;
+  margin-inline: 30px;
+}
+li {
+  font-size: 25px;
+  margin-left: 15px;
+}
+h3 {
+  font-size: 2em;
+  margin-left: 35px;
+}
+.link-email {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link-github {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link-github:hover {
+  text-decoration: underline;
+}
+.link-email:hover {
+  text-decoration: underline;
+}
+.link-github:visited {
+  color: #551a8b;
+}
+.link-email:visited {
+  color: #551a8b;
+}
